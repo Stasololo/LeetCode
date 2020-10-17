@@ -151,7 +151,27 @@ namespace LeetCode.Difficulty
             return result;
         }
 
+        /// <summary>
+        /// 9. Palindrome Number
+        /// https://leetcode.com/problems/palindrome-number/
+        /// </summary>
+        /// <param name="x"></param>
+        /// <returns></returns>
+        public static bool IsPalindrome(int x)
+        {
+            bool result = false;
+            var length = x.ToString().Length;
+            char[] arr = new char[length];
 
+            for (int i = 0; i < x.ToString().Length && length > 0; i++, length--)
+            {
+                arr[i] = x.ToString()[length-1];
+            }
+
+            var strResult = new string(arr);
+            result = strResult.Equals(x.ToString());
+            return result;
+        }
 
 
 

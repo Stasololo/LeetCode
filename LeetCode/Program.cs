@@ -1,4 +1,5 @@
 ﻿using LeetCode.Difficulty;
+using System;
 
 namespace LeetCode
 {
@@ -113,6 +114,27 @@ namespace LeetCode
             //Output: [0, 1]
 
             //var result = Easy.TwoSum(nums, target);
+            #endregion
+
+            #region 9. Palindrome Number
+            //https://leetcode.com/problems/palindrome-number/
+            //Example 1:
+            //int x = 121;
+            //Output: true
+
+            //Example 2:
+            //int x = -121;
+            //Output: false
+
+            //Example 3:
+            //int x = 10;
+            //Output: false
+
+            //Example 4:
+            //int x = -101;
+            //Output: false
+
+            //var result = Easy.IsPalindrome(x);
             #endregion
 
             #endregion

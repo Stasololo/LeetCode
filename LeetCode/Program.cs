@@ -145,7 +145,7 @@ namespace LeetCode
             #region 5. Longest Palindromic Substring
             // https://leetcode.com/problems/longest-palindromic-substring/
             //Example 1:
-            string s = "babad";
+            //string s = "babad";
             //Output: "bab" || "aba"
 
             //Example 2:
@@ -160,7 +160,32 @@ namespace LeetCode
             //string s = "ac";
             //Output: "a"
 
-            var result = Medium.LongestPalindrome(s);
+            //var result = Medium.LongestPalindrome(s);
+            #endregion
+
+            #region 8. String to Integer (atoi)
+            //https://leetcode.com/problems/string-to-integer-atoi/
+            //Example 1:
+            //string str = "42";
+            //Output: 42
+
+            //Example 2:
+            //string str = "   -42";
+            //Output: -42
+
+            //Example 3:
+            //string str = "4193 with words";
+            //Output: 4193
+
+            //Example 4:
+            //string str = "words and 987";
+            //Output: 0
+
+            //Example 5:
+            //string str = "-91283472332";
+            //Output: -2147483648
+
+            //var result = Medium.MyAtoi(str);
             #endregion
 
             #endregion

@@ -30,7 +30,6 @@ namespace LeetCode.Difficulty
             else
             {
                 int median = (lenthArrays / 2);
-                var q =
                 result = (Convert.ToDouble(sortedArrays[median - 1]) + Convert.ToDouble(sortedArrays[median])) / 2.0;
             }
 
@@ -40,6 +39,6 @@ namespace LeetCode.Difficulty
 
 
 
-
+       
     }
 }

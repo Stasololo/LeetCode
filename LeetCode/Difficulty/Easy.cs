@@ -173,10 +173,165 @@ namespace LeetCode.Difficulty
             return result;
         }
 
+        /// <summary>
+        /// 13. Roman to Integer 
+        /// https://leetcode.com/problems/roman-to-integer/
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        ////////////////////////////
+        public static int RomanToInt(string s)
+        {
+            int result = 0;
 
 
 
+            return result;
+        }
+
+        /// <summary>
+        /// 14. Longest Common Prefix
+        /// https://leetcode.com/problems/longest-common-prefix/
+        /// </summary>
+        /// <param name="strs"></param>
+        /// <returns></returns>
+        ////////////////////////////
+        public static string LongestCommonPrefix(string[] strs)
+        {
+            var result = string.Empty;
 
 
+            return result;
+        }
+
+        /// <summary>
+        /// 1662. Check If Two String Arrays are Equivalent
+        /// https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+        /// </summary>
+        /// <param name="word1"></param>
+        /// <param name="word2"></param>
+        /// <returns></returns>
+        public static bool ArrayStringsAreEqual(string[] word1, string[] word2)
+        {
+            bool result = true;
+            var w1 = string.Join("", word1);
+            var w2 = string.Join("", word2);
+
+            result = w1.Equals(w2);
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1486. XOR Operation in an Array
+        /// https://leetcode.com/problems/xor-operation-in-an-array/
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="start"></param>
+        /// <returns></returns>
+        public static int XorOperation(int n, int start)
+        {
+            int result = 0;
+            int[] nums = new int[n];
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                nums[i] = start + 2 * i;
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                result ^= nums[i];
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1281. Subtract the Product and Sum of Digits of an Integer
+        /// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static int SubtractProductAndSum(int n)
+        {
+            int result = 0;
+            int minuend = 1;
+            int subtrahend = 0;
+            
+            foreach (var item in n.ToString())
+            {
+                minuend *= Convert.ToInt32(item.ToString());
+                subtrahend += Convert.ToInt32(item.ToString());
+            }
+
+            result = minuend - subtrahend;
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1365. How Many Numbers Are Smaller Than the Current Number
+        /// https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public static int[] SmallerNumbersThanCurrent(int[] nums)
+        {
+            int[] result = new int[nums.Length];
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                int count = 0;
+                for (int j = 0; j < nums.Length; j++)
+                {
+                    if (j != i && nums[j] < nums[i])
+                    {
+                        count++;
+                    }
+                }
+                result[i] = count;
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1534. Count Good Triplets
+        /// https://leetcode.com/problems/count-good-triplets/
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <param name="c"></param>
+        /// <returns></returns>
+        ////////////////////////////
+        public static int CountGoodTriplets(int[] arr, int a, int b, int c)
+        {
+            int result = 0;
+           
+            return result;
+        }
+
+        /// <summary>
+        /// 1295. Find Numbers with Even Number of Digits
+        /// https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public static int FindNumbers(int[] nums)
+        {
+            int result = 0;
+
+            foreach (var item in nums)
+            {
+                if (item.ToString().Length % 2 == 0)
+                {
+                    result++;
+                }
+            }
+
+            return result;
+        }
     }
 }

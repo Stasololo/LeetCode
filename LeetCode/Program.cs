@@ -137,6 +137,150 @@ namespace LeetCode
             //var result = Easy.IsPalindrome(x);
             #endregion
 
+            ////////////////////////////
+            #region 13. Roman to Integer 
+            //https://leetcode.com/problems/roman-to-integer/
+            //Example 1:
+            //string s = "III";
+            //Output: 3
+
+            //Example 2:
+            //Input: s = "IV";
+            //Output: 4
+
+            //Example 3:
+            //string s = "IX";
+            //Output: 9
+
+            //Example 4:
+            //string s = "LVIII";
+            //Output: 58
+
+            //var result = Easy.RomanToInt(s);
+            #endregion 
+
+            ////////////////////////////
+            #region 14. Longest Common Prefix
+            //https://leetcode.com/problems/longest-common-prefix/
+            //Example 1:
+            //string[] strs = { "flower", "flow", "flight" };
+            //Output: "fl"
+
+            //Example 2:
+            //string[] strs = {"dog", "racecar", "car"};
+            //Output: ""
+
+            //var result = Easy.LongestCommonPrefix(strs);
+            #endregion
+
+            #region 1662. Check If Two String Arrays are Equivalent
+            // https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+            //Example 1:
+            //string[] word1 = { "ab", "c" };
+            //string[] word2 = { "a", "bc" };
+            //Output: true
+
+            //Example 2:
+            //string[] word1 = { "a", "cb" };
+            //string[] word2 = { "ab", "c" };
+            //Output: false
+
+            //Example 3:
+            //string[] word1 = {"abc", "d", "defg"};
+            //string[] word2 = {"abcddefg"};
+            //Output: true
+
+            //var result = Easy.ArrayStringsAreEqual(word1, word2);
+            #endregion
+
+            #region 1486. XOR Operation in an Array
+            // https://leetcode.com/problems/xor-operation-in-an-array/
+            //Example 1:
+            //int n = 5;
+            //int start = 0;
+            //Output: 8
+
+            //Example 2:
+            //int n = 4;
+            //int start = 3;
+            //Output: 8
+
+            //Example 3:
+            //int n = 1;
+            //int start = 7;
+            //Output: 7
+
+            //Example 4:
+            //int n = 10;
+            //int start = 5;
+            //Output: 2
+
+            //var result = Easy.XorOperation(n, start);
+            #endregion
+
+            #region 1281. Subtract the Product and Sum of Digits of an Integer
+            // https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+            //Example 1:
+            //int n = 234;
+            //Output: 15
+
+            //Example 2:
+            //int n = 4421;
+            //Output: 21
+
+            //var result = Easy.SubtractProductAndSum(n);
+            #endregion
+
+            #region 1365. How Many Numbers Are Smaller Than the Current Number
+            // https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+            //Example 1:
+            //int[] nums = { 8, 1, 2, 2, 3 };
+            //Output: [4, 0, 1, 1, 3]
+
+            //Example 2:
+            //int[] nums = { 6, 5, 4, 8 };
+            //Output: [2, 1, 0, 3]
+
+            //Example 3:
+            //int[] nums = { 7, 7, 7, 7 };
+            //Output: [0, 0, 0, 0]
+
+            //var result = Easy.SmallerNumbersThanCurrent(nums);
+            #endregion
+
+            ////////////////////////////
+            #region 1534. Count Good Triplets
+            // https://leetcode.com/problems/count-good-triplets/
+            //Example 1:
+            //int[] arr = { 3, 0, 1, 1, 9, 7 };
+            //int a = 7;
+            //int b = 2;
+            //int c = 3;
+            //Output: 4
+
+            //Example 2:
+            //int[] arr = { 1, 1, 2, 2, 3 };
+            //int a = 0;
+            //int b = 0;
+            //int c = 1;
+            //Output: 0
+
+            //var result = Easy.CountGoodTriplets(arr, a, b, c);
+            #endregion
+
+            #region 1295. Find Numbers with Even Number of Digits
+            // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+            //Example 1:
+            //int[] nums = { 12, 345, 2, 6, 7896 };
+            //Output: 2
+
+            //Example 2:
+            int[] nums = { 555, 901, 482, 1771 };
+            //Output: 1
+
+            var result = Easy.FindNumbers(nums);
+            #endregion
+
             #endregion
 
             //----------------------------------------------------------------------------//
@@ -208,6 +352,31 @@ namespace LeetCode
             //Output: -2147483648
 
             //var result = Medium.MyAtoi(str);
+            #endregion
+
+            #region 12. Integer to Roman
+            //https://leetcode.com/problems/integer-to-roman/
+            //Example 1:
+            //int num = 3;
+            //Output: "III"
+
+            //Example 2:
+            //int num = 4;
+            //Output: "IV"
+
+            //Example 3:
+            //int num = 9;
+            //Output: "IX"
+
+            //Example 4:
+            //int num = 58;
+            //Output: "LVIII"
+
+            //Example 5:
+            //int num = 1994;
+            //Output: "MCMXCIV"
+
+            //var result = Medium.IntToRoman(num);
             #endregion
 
             #endregion

@@ -91,7 +91,19 @@ namespace LeetCode.Difficulty
             }
         }
 
+        /// <summary>
+        /// 12. Integer to Roman
+        /// https://leetcode.com/problems/integer-to-roman/
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        public static string IntToRoman(int num)
+        {
+            string result = String.Empty;
 
 
+
+            return result;
+        }
     }
 }

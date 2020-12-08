@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 
@@ -329,6 +330,113 @@ namespace LeetCode.Difficulty
                 {
                     result++;
                 }
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1678. Goal Parser Interpretation
+        /// https://leetcode.com/problems/goal-parser-interpretation/
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        public static string Interpret(string command)
+        {
+            string result = string.Empty;
+
+            result = command.Replace("()", "o").Replace("(al)", "al");
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1672. Richest Customer Wealth
+        /// https://leetcode.com/problems/richest-customer-wealth/
+        /// </summary>
+        /// <param name="accounts"></param>
+        /// <returns></returns>
+        public static int MaximumWealth(int[][] accounts)
+        {
+            int result = 0;
+
+            foreach (var item in accounts)
+            {
+                if (result < item.Sum())
+                {
+                    result = item.Sum();
+                }
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// 771. Jewels and Stones
+        /// https://leetcode.com/problems/jewels-and-stones/
+        /// </summary>
+        /// <param name="J"></param>
+        /// <param name="S"></param>
+        /// <returns></returns>
+        public static int NumJewelsInStones(string J, string S)
+        {
+            int result = 0;
+
+            foreach (var j in J)
+            {
+                for (int i = 0; i < S.Length; i++)
+                {
+                    if (j == S[i])
+                    {
+                        result++;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1342. Number of Steps to Reduce a Number to Zero
+        /// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        public static int NumberOfSteps(int num)
+        {
+            int result = 0;
+
+            while (num > 0)
+            {
+                if (num % 2 == 0)
+                {
+                    num = num / 2;
+                    result++;
+                }
+                else
+                {
+                    num -= 1;
+                    result++;
+                }
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// 1389. Create Target Array in the Given Order
+        /// https://leetcode.com/problems/create-target-array-in-the-given-order/
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public static int[] CreateTargetArray(int[] nums, int[] index)
+        {
+            int[] result = new int[nums.Length];
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                result[i] = nums[i];
             }
 
             return result;

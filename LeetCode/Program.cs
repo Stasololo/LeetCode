@@ -10,7 +10,8 @@ namespace LeetCode
             #region Easy
 
             #region 1108. Defanging an IP Address
-            //https://leetcode.com/problems/defanging-an-ip-address/
+            /// https://leetcode.com/problems/defanging-an-ip-address/
+
             //Example 1:
             //string address = "1.1.1.1";
             //Output: "1[.]1[.]1[.]1"
@@ -23,7 +24,8 @@ namespace LeetCode
             #endregion
 
             #region 1512. Number of Good Pairs
-            //https://leetcode.com/problems/number-of-good-pairs/
+            /// https://leetcode.com/problems/number-of-good-pairs/
+
             //Example 1:
             //int[] nums = { 1, 2, 3, 1, 1, 3 };
             //Output: 4
@@ -40,7 +42,8 @@ namespace LeetCode
             #endregion
 
             #region 1470. Shuffle the Array
-            //https://leetcode.com/problems/shuffle-the-array/
+            /// https://leetcode.com/problems/shuffle-the-array/
+
             //Example 1:
             //int[] nums = { 2, 5, 1, 3, 4, 7 };
             //int n = 3;
@@ -60,7 +63,8 @@ namespace LeetCode
             #endregion
 
             #region 1431. Kids With the Greatest Number of Candies 
-            //https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+            /// https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+
             //Example 1:
             //int[] candies = { 2, 3, 5, 1, 3 };
             //int extraCandies = 3;
@@ -80,7 +84,8 @@ namespace LeetCode
             #endregion
 
             #region 1480. Running Sum of 1d Array
-            //https://leetcode.com/problems/running-sum-of-1d-array/
+            /// https://leetcode.com/problems/running-sum-of-1d-array/
+
             //Example 1:
             //int[] nums = { 1, 2, 3, 4 };
             //Output: [1,3,6,10]
@@ -97,7 +102,8 @@ namespace LeetCode
             #endregion
 
             #region 1. Two Sum 
-            //https://leetcode.com/problems/two-sum/
+            /// https://leetcode.com/problems/two-sum/
+
             //Example 1:
             //int[] nums = { 2, 7, 11, 15 };
             //int target = 9;
@@ -117,7 +123,8 @@ namespace LeetCode
             #endregion
 
             #region 9. Palindrome Number
-            //https://leetcode.com/problems/palindrome-number/
+            /// https://leetcode.com/problems/palindrome-number/
+
             //Example 1:
             //int x = 121;
             //Output: true
@@ -139,7 +146,8 @@ namespace LeetCode
 
             ////////////////////////////
             #region 13. Roman to Integer 
-            //https://leetcode.com/problems/roman-to-integer/
+            /// https://leetcode.com/problems/roman-to-integer/
+
             //Example 1:
             //string s = "III";
             //Output: 3
@@ -157,11 +165,12 @@ namespace LeetCode
             //Output: 58
 
             //var result = Easy.RomanToInt(s);
-            #endregion 
+            #endregion
 
             ////////////////////////////
             #region 14. Longest Common Prefix
-            //https://leetcode.com/problems/longest-common-prefix/
+            /// https://leetcode.com/problems/longest-common-prefix/
+
             //Example 1:
             //string[] strs = { "flower", "flow", "flight" };
             //Output: "fl"
@@ -174,7 +183,8 @@ namespace LeetCode
             #endregion
 
             #region 1662. Check If Two String Arrays are Equivalent
-            // https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+            /// https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+
             //Example 1:
             //string[] word1 = { "ab", "c" };
             //string[] word2 = { "a", "bc" };
@@ -194,7 +204,8 @@ namespace LeetCode
             #endregion
 
             #region 1486. XOR Operation in an Array
-            // https://leetcode.com/problems/xor-operation-in-an-array/
+            /// https://leetcode.com/problems/xor-operation-in-an-array/
+
             //Example 1:
             //int n = 5;
             //int start = 0;
@@ -219,7 +230,8 @@ namespace LeetCode
             #endregion
 
             #region 1281. Subtract the Product and Sum of Digits of an Integer
-            // https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+            /// https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+
             //Example 1:
             //int n = 234;
             //Output: 15
@@ -232,7 +244,8 @@ namespace LeetCode
             #endregion
 
             #region 1365. How Many Numbers Are Smaller Than the Current Number
-            // https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+            /// https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+
             //Example 1:
             //int[] nums = { 8, 1, 2, 2, 3 };
             //Output: [4, 0, 1, 1, 3]
@@ -250,7 +263,8 @@ namespace LeetCode
 
             ////////////////////////////
             #region 1534. Count Good Triplets
-            // https://leetcode.com/problems/count-good-triplets/
+            /// https://leetcode.com/problems/count-good-triplets/
+
             //Example 1:
             //int[] arr = { 3, 0, 1, 1, 9, 7 };
             //int a = 7;
@@ -269,16 +283,107 @@ namespace LeetCode
             #endregion
 
             #region 1295. Find Numbers with Even Number of Digits
-            // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+            /// https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
             //Example 1:
             //int[] nums = { 12, 345, 2, 6, 7896 };
             //Output: 2
 
             //Example 2:
-            int[] nums = { 555, 901, 482, 1771 };
+            //int[] nums = { 555, 901, 482, 1771 };
             //Output: 1
 
-            var result = Easy.FindNumbers(nums);
+            //var result = Easy.FindNumbers(nums);
+            #endregion
+
+            #region 1678. Goal Parser Interpretation
+            /// https://leetcode.com/problems/goal-parser-interpretation/
+
+            //Example 1:
+            //string command = "G()(al)";
+            //Output: "Goal"
+
+            //Example 2:
+            //string command = "G()()()()(al)";
+            //Output: "Gooooal"
+
+            //Example 3:
+            //string command = "(al)G(al)()()G";
+            //Output: "alGalooG"
+
+            //var result = Easy.Interpret(command);
+            #endregion
+
+            #region 1672. Richest Customer Wealth
+            /// https://leetcode.com/problems/richest-customer-wealth/
+
+            //Example 1:
+            //int[][] accounts = { new int[] { 1, 2, 3 }, new int[] { 3, 2, 1 } };
+            //Output: 6
+
+            //Example 2:
+            //int[][] accounts = { new int[] { 1, 5 }, new int[] { 7, 3 }, new int[] { 3, 5 } };
+            //Output: 10
+
+            //Example 3:
+            //int[][] accounts = { new int[] { 2, 8, 7 }, new int[] { 7, 1, 3 }, new int[] { 1, 9, 5 } };
+            //Output: 17
+
+            //var result = Easy.MaximumWealth(accounts);
+            #endregion
+
+            #region 771. Jewels and Stones
+            /// https://leetcode.com/problems/jewels-and-stones/
+
+            //Example 1:
+            //string J = "aA";
+            //string S = "aAAbbbb";
+            //Output: 3
+
+            //Example 2:
+            //string J = "z";
+            //string S = "ZZ";
+            //Output: 0
+
+            //var result = Easy.NumJewelsInStones(J, S);
+            #endregion
+
+            #region 1342. Number of Steps to Reduce a Number to Zero
+            /// https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+
+            //Example 1:
+            //int num = 14;
+            //Output: 6
+
+            //Example 2:
+            //int num = 8;
+            //Output: 4
+
+            //Example 3:
+            //int num = 123;
+            //Output: 12
+
+            //var result = Easy.NumberOfSteps(num);
+            #endregion
+
+            #region 1389. Create Target Array in the Given Order
+            /// https://leetcode.com/problems/create-target-array-in-the-given-order/
+
+            //Example 1:
+            int[] nums = { 0, 1, 2, 3, 4 };
+            int[] index = { 0, 1, 2, 2, 1 };
+            //Output: [0, 4, 1, 3, 2]
+
+            //Example 2:
+            //int[] nums = { 1, 2, 3, 4, 0 };
+            //int[] index = { 0, 1, 2, 3, 0 };
+            //Output: [0, 1, 2, 3, 4]
+
+            //Example 3:
+            //int[] nums = { 1 };
+            //int[] index = { 0 };
+            //Output: [1]
+
+            var result = Easy.CreateTargetArray(nums, index);
             #endregion
 
             #endregion
@@ -288,7 +393,8 @@ namespace LeetCode
             #region Medium
 
             #region 3. Longest Substring Without Repeating Characters
-            //https://leetcode.com/problems/longest-substring-without-repeating-characters/
+            /// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
             //Example 1:
             //string s = "abcabcbb";
             //Output: 3
@@ -309,7 +415,8 @@ namespace LeetCode
             #endregion
 
             #region 5. Longest Palindromic Substring
-            // https://leetcode.com/problems/longest-palindromic-substring/
+            /// https://leetcode.com/problems/longest-palindromic-substring/
+
             //Example 1:
             //string s = "babad";
             //Output: "bab" || "aba"
@@ -330,7 +437,8 @@ namespace LeetCode
             #endregion
 
             #region 8. String to Integer (atoi)
-            //https://leetcode.com/problems/string-to-integer-atoi/
+            /// https://leetcode.com/problems/string-to-integer-atoi/
+
             //Example 1:
             //string str = "42";
             //Output: 42
@@ -355,7 +463,8 @@ namespace LeetCode
             #endregion
 
             #region 12. Integer to Roman
-            //https://leetcode.com/problems/integer-to-roman/
+            /// https://leetcode.com/problems/integer-to-roman/
+
             //Example 1:
             //int num = 3;
             //Output: "III"
@@ -386,7 +495,8 @@ namespace LeetCode
             #region Hard
 
             #region 4. Median of Two Sorted Arrays
-            // https://leetcode.com/problems/median-of-two-sorted-arrays/
+            /// https://leetcode.com/problems/median-of-two-sorted-arrays/
+
             //Example 1:
             //int[] nums1 = { 1, 3 };
             //int[] nums2 = { 2 };
